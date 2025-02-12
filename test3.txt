@@ -1,0 +1,6 @@
+(define x 10)
+(+ x 5)
+(define y (* x 2))
+(+ x y)
+(define z (+ x y (* x y)))
+z

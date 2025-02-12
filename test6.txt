@@ -1,0 +1,10 @@
+(if (< 3 5) "Yes" "No")
+(if (> 3 5) "Yes" "No")
+(define (max x y)
+  (if (> x y)
+      x
+      y))
+(max 10 20)
+(if (and (< 3 5) (> 10 7))
+    (+ 2 3)
+    (- 10 5))

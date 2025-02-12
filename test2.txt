@@ -1,0 +1,5 @@
+((lambda (x) (* x x)) 5)
+((lambda (x y) (+ x y)) 10 20)
+(define (apply-twice f x) (f (f x)))
+(apply-twice (lambda (x) (* x 2)) 5)
+((lambda (f x) (f x)) (lambda (x) (+ x 10)) 5)
