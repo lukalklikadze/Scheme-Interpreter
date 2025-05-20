@@ -1,0 +1,17 @@
+# Visual Studio files
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+*.opendb
+*.VC.db
+
+# Build artifacts
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.log
+*.cache
